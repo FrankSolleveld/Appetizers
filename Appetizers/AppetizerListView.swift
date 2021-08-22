@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ApppetizerListView: View {
+struct AppetizerListView: View {
     var body: some View {
         NavigationView {
             List(MockData.appetizers) { appetizer in
@@ -20,6 +20,6 @@ struct ApppetizerListView: View {
 
 struct ApppetizerListView_Previews: PreviewProvider {
     static var previews: some View {
-        ApppetizerListView()
+        AppetizerListView()
     }
 }

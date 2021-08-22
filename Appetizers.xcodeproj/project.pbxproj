@@ -14,6 +14,7 @@
 		957329B526D19291003CD7A0 /* ApppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957329B426D19291003CD7A0 /* ApppetizerListView.swift */; };
 		957329B726D19298003CD7A0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957329B626D19298003CD7A0 /* AccountView.swift */; };
 		957329B926D1929E003CD7A0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957329B826D1929E003CD7A0 /* OrderView.swift */; };
+		9574246C26D23D1F00F7BAA2 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574246B26D23D1F00F7BAA2 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		957329B426D19291003CD7A0 /* ApppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApppetizerListView.swift; sourceTree = "<group>"; };
 		957329B626D19298003CD7A0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		957329B826D1929E003CD7A0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		9574246B26D23D1F00F7BAA2 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				957329A626D1919C003CD7A0 /* AppetizersApp.swift */,
 				957329A826D1919C003CD7A0 /* AppetizerTabView.swift */,
+				9574246B26D23D1F00F7BAA2 /* Appetizer.swift */,
 				957329B426D19291003CD7A0 /* ApppetizerListView.swift */,
 				957329B626D19298003CD7A0 /* AccountView.swift */,
 				957329B826D1929E003CD7A0 /* OrderView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9574246C26D23D1F00F7BAA2 /* Appetizer.swift in Sources */,
 				957329B726D19298003CD7A0 /* AccountView.swift in Sources */,
 				957329B526D19291003CD7A0 /* ApppetizerListView.swift in Sources */,
 				957329A926D1919C003CD7A0 /* AppetizerTabView.swift in Sources */,

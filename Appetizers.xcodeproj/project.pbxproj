@@ -27,6 +27,8 @@
 		958A13D026D41D5800E9DC02 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13CF26D41D5800E9DC02 /* APButton.swift */; };
 		958A13D226D41DDF00E9DC02 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D126D41DDF00E9DC02 /* DismissButton.swift */; };
 		958A13D426D41F1500E9DC02 /* NutritionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D326D41F1500E9DC02 /* NutritionInfo.swift */; };
+		958A13D726D424EC00E9DC02 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D626D424EC00E9DC02 /* AccountViewModel.swift */; };
+		958A13D926D4264E00E9DC02 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D826D4264E00E9DC02 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		958A13CF26D41D5800E9DC02 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		958A13D126D41DDF00E9DC02 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
 		958A13D326D41F1500E9DC02 /* NutritionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionInfo.swift; sourceTree = "<group>"; };
+		958A13D626D424EC00E9DC02 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		958A13D826D4264E00E9DC02 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				957329B626D19298003CD7A0 /* AccountView.swift */,
+				958A13D626D424EC00E9DC02 /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				955BEDCA26D3D2D900AFD402 /* Color+Ext.swift */,
+				958A13D826D4264E00E9DC02 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				957329B726D19298003CD7A0 /* AccountView.swift in Sources */,
 				958A13D026D41D5800E9DC02 /* APButton.swift in Sources */,
 				955BEDC926D3D23100AFD402 /* LoadingView.swift in Sources */,
+				958A13D726D424EC00E9DC02 /* AccountViewModel.swift in Sources */,
 				957329B526D19291003CD7A0 /* AppetizerListView.swift in Sources */,
 				9574247026D2477600F7BAA2 /* NetworkManager.swift in Sources */,
 				955BEDCD26D3DCF400AFD402 /* RemoteImage.swift in Sources */,
@@ -330,6 +337,7 @@
 				957329A926D1919C003CD7A0 /* AppetizerTabView.swift in Sources */,
 				955BEDC726D3CE3E00AFD402 /* Alert.swift in Sources */,
 				957329A726D1919C003CD7A0 /* AppetizersApp.swift in Sources */,
+				958A13D926D4264E00E9DC02 /* String+Ext.swift in Sources */,
 				957329B926D1929E003CD7A0 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

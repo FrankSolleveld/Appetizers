@@ -24,6 +24,9 @@
 		9574247026D2477600F7BAA2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574246F26D2477600F7BAA2 /* NetworkManager.swift */; };
 		9574247226D2485000F7BAA2 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574247126D2485000F7BAA2 /* APError.swift */; };
 		958A13CD26D4147100E9DC02 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13CC26D4147100E9DC02 /* AppetizerDetailView.swift */; };
+		958A13D026D41D5800E9DC02 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13CF26D41D5800E9DC02 /* APButton.swift */; };
+		958A13D226D41DDF00E9DC02 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D126D41DDF00E9DC02 /* DismissButton.swift */; };
+		958A13D426D41F1500E9DC02 /* NutritionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D326D41F1500E9DC02 /* NutritionInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		9574246F26D2477600F7BAA2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9574247126D2485000F7BAA2 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		958A13CC26D4147100E9DC02 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		958A13CF26D41D5800E9DC02 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		958A13D126D41DDF00E9DC02 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		958A13D326D41F1500E9DC02 /* NutritionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,8 @@
 		955BEDD926D3E0BB00AFD402 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				958A13D526D41F3100E9DC02 /* SwiftUI Components */,
+				958A13CE26D41D4E00E9DC02 /* Buttons */,
 				955BEDDB26D3E0CF00AFD402 /* Image */,
 				955BEDDA26D3E0C600AFD402 /* Cells */,
 				955BEDD826D3E0A800AFD402 /* UIKit Components */,
@@ -216,6 +224,23 @@
 				957329AD26D1919E003CD7A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		958A13CE26D41D4E00E9DC02 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				958A13CF26D41D5800E9DC02 /* APButton.swift */,
+				958A13D126D41DDF00E9DC02 /* DismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		958A13D526D41F3100E9DC02 /* SwiftUI Components */ = {
+			isa = PBXGroup;
+			children = (
+				958A13D326D41F1500E9DC02 /* NutritionInfo.swift */,
+			);
+			path = "SwiftUI Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +318,10 @@
 				9574246E26D246AF00F7BAA2 /* AppetizerListCell.swift in Sources */,
 				956669D726D2537A00F07A15 /* AppetizerListViewModel.swift in Sources */,
 				955BEDCB26D3D2D900AFD402 /* Color+Ext.swift in Sources */,
+				958A13D226D41DDF00E9DC02 /* DismissButton.swift in Sources */,
+				958A13D426D41F1500E9DC02 /* NutritionInfo.swift in Sources */,
 				957329B726D19298003CD7A0 /* AccountView.swift in Sources */,
+				958A13D026D41D5800E9DC02 /* APButton.swift in Sources */,
 				955BEDC926D3D23100AFD402 /* LoadingView.swift in Sources */,
 				957329B526D19291003CD7A0 /* AppetizerListView.swift in Sources */,
 				9574247026D2477600F7BAA2 /* NetworkManager.swift in Sources */,

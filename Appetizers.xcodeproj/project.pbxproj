@@ -29,6 +29,7 @@
 		958A13D426D41F1500E9DC02 /* NutritionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D326D41F1500E9DC02 /* NutritionInfo.swift */; };
 		958A13D726D424EC00E9DC02 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D626D424EC00E9DC02 /* AccountViewModel.swift */; };
 		958A13D926D4264E00E9DC02 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13D826D4264E00E9DC02 /* String+Ext.swift */; };
+		958A13DB26D42E0B00E9DC02 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A13DA26D42E0B00E9DC02 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		958A13D326D41F1500E9DC02 /* NutritionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionInfo.swift; sourceTree = "<group>"; };
 		958A13D626D424EC00E9DC02 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		958A13D826D4264E00E9DC02 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		958A13DA26D42E0B00E9DC02 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9574246B26D23D1F00F7BAA2 /* Appetizer.swift */,
+				958A13DA26D42E0B00E9DC02 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				957329A726D1919C003CD7A0 /* AppetizersApp.swift in Sources */,
 				958A13D926D4264E00E9DC02 /* String+Ext.swift in Sources */,
 				957329B926D1929E003CD7A0 /* OrderView.swift in Sources */,
+				958A13DB26D42E0B00E9DC02 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
